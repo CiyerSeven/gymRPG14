@@ -1,0 +1,66 @@
+name: "gymrpg"
+description: "LevelUp Gym Tracker projesi için temel Flutter yapısı."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI / Navigasyon / Stil
+  cupertino_icons: ^1.0.8
+  dotlottie_loader: ^0.0.4
+  flutter_svg: ^2.0.16
+  go_router: ^14.6.1
+  lottie: ^3.1.3
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0   # <-- GRAFİK PAKETİ
+  audioplayers: ^6.0.0
+  intl: ^0.18.0
+
+  # Durum Yönetimi ve Depolama
+  provider: ^6.0.5
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.2.2
+
+  # LEVELUP GYM TRACKER GEREKSİNİMLERİ (Hive Entegrasyonu)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.1
+
+  # KOD ÜRETİMİ (Hive)
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  adaptive_icon_foreground: assets/logo.png
+  adaptive_icon_background: "#673AB7"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash_screen.png
+    - assets/sounds/levelup.mp3
+    - assets/logo.png
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash_screen.png
+  android: true
+  ios: true
+
+  android_12:
+    image: assets/splash_screen.png
+    icon_background_color: "#3F51B5"
