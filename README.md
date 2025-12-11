@@ -107,21 +107,37 @@ flutter run
 
 
 /lib
+
 |-- /models
+
 |   |-- workout.dart
+
 |   |-- exercise.dart
+
 |   |-- weight_entry.dart 
+
 |   |-- ... (Diğer Hive modelleri)
+
 |-- /providers
-|   |-- gym_tracker_provider.dart  <-- Ana State Yönetimi ve İş Mantığı
+
+|   |-- gym_tracker_provider.dart  
+
 |-- /screens
+
 |   |-- dashboard_screen.dart 
-|   |-- manage_exercises_screen.dart <-- Hareket Yönetimi
-|   |-- personal_data_screen.dart   <-- Kilo & Boy Takibi
+
+|   |-- manage_exercises_screen.dart 
+
+|   |-- personal_data_screen.dart   
+
 |   |-- ... (Diğer ekranlar)
+
 |-- /services
-|   |-- db_service.dart             <-- Hive Veritabanı Erişim Katmanı
-|-- main.dart                       <-- Uygulama Başlangıcı ve Tema Tanıml
+
+|   |-- db_service.dart            
+
+|-- main.dart                       
+
 
 
 Lisans
