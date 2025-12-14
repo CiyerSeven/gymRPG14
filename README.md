@@ -1,7 +1,7 @@
 
 #GYM RPG
 
-GymRPG, geleneksel antrenman takibini oyunlaştırma (gamification) öğeleriyle birleştiren modern bir andorid uygulamasıdır. Her set, her tekrar ve her kilogram; kas grubunuzun XP (Deneyim Puanı) kazanmasını ve Level atlamasını sağlar. Sadece ağırlık kaldırmayın, bir maceracı gibi seviye atlayın!
+GymRPG, geleneksel antrenman takibini oyunlaştırma (gamification) öğeleriyle birleştiren modern bir andorid uygulamasıdır. Her set, her tekrar ve her kilogram; kas grubunuzun XP (Deneyim Puanı) kazanmasını ve Level atlamasını sağlar
 
 Temel Özellikler
 
